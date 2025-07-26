@@ -39,12 +39,12 @@ vim.lsp.config["luals"] = {
 }
 
 vim.lsp.config["zls"] = {
-  cmd = { "/???/Developer/zig/zls/zig-out/bin/zls" },
+  cmd = { "~/Developer/zig/zls/zig-out/bin/zls" },
   filetypes = { "zig" },
   settings = {
     zls = {
-      zig_lib_path = "/???/Developer/zig/zig/lib",
-      zig_exe_path = "/???/Developer/zig/zig/build/stage3/bin/zig"
+      zig_lib_path = "~/Developer/zig/zig/lib",
+      zig_exe_path = "~/Developer/zig/zig/build/stage3/bin/zig"
     }
   }
 }
@@ -89,8 +89,8 @@ local function get_tbl_keys(tbl)
 end
 
 local log_file_mappings = {
-  ["lsp"] = "/???/.local/state/nvim/lsp.log",
-  ["zls"] = "/???/Library/Caches/zls/zls.log"
+  ["lsp"] = "~/.local/state/nvim/lsp.log",
+  ["zls"] = "~/Library/Caches/zls/zls.log"
 }
 
 -- Opens a log file in the current buffer.
