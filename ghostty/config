@@ -1,0 +1,11 @@
+cursor-style = block
+cursor-style-blink = false
+shell-integration-features = no-cursor
+title=""
+
+font-feature=-calt
+theme=auto_neovim
+
+keybind = super+shift+r=reload_config
+keybind = super+r=unbind
+keybind = ctrl+r=unbind
