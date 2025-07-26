@@ -1,0 +1,25 @@
+-- local cmp = require("cmp")
+--
+-- local tab_key = cmp.mapping(function(fallback)
+--   if cmp.visible() then
+--     cmp.select_next_item()
+--   else
+--     fallback()
+--   end
+-- end, {
+--   "i"
+-- })
+--
+-- cmp.setup({
+--   window = {
+--     -- completion = cmp.config.window.bordered()
+--   },
+--   mapping = {
+--     ["<Tab>"] = tab_key,
+--     ["<S-Tab>"] = cmp.mapping(cmp.mapping.select_prev_item(), { "i", "c" }),
+--     ["<CR>"] = cmp.mapping.confirm({ select = false }),
+--   },
+--   sources = cmp.config.sources({
+--     { name = "nvim_lsp"}
+--   })
+-- })

@@ -1,0 +1,9 @@
+# Config relating to the Lazygit UI
+gui:
+  # The number of lines you scroll by when scrolling the main window
+  mouseEvents: false
+
+  theme:
+    activeBorderColor:
+      - white
+      - bold
