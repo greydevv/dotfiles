@@ -1,4 +1,4 @@
 return {
     "rktjmp/lush.nvim",
-    { dir = "~/Developer/dotfiles/nvim/colors/simple", lazy = true }
+    { dir = "~/Developer/nvim/warm-noir", lazy = true }
 }
