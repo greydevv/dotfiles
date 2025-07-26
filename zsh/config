@@ -1,3 +1,6 @@
+# don't allow CTRL-D to close terminal
+setopt ignore_eof
+
 alias c="clear"
 
 # vim
