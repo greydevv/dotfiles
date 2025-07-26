@@ -1,0 +1,22 @@
+alias c="clear"
+
+# vim
+alias vi="nvim"
+alias vim="nvim"
+
+# git
+alias gs="git status"
+alias ga="git add"
+alias gall="git add ."
+alias gc="git commit -m"
+alias gp="git push"
+alias gpom="git push origin main"
+alias gpo="git push origin"
+alias gb="git branch"
+alias grs="git restore --staged"
+alias gd="git diff"
+alias lg="lazygit"
+
+# colors
+autoload -U colors && colors
+export PS1="%F{172}%3~ %f%{$reset_color%}%F{208}%B$%b%f%{$reset_color%} "
